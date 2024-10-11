@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(243,229,215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+/* the body of the work */
+.container{
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    height: 1000px;
+    width: 350px;
+    border-radius: 20px;
+    
+}
+/* styling the omelette image  */
+img{
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+}
+/* styling the preparation div  */
+#preparation{
+    background-color:rgb(255,247,252);
+    padding: 7px;
+    border-radius: 10px;
+    color: rgb(85, 83, 83);
+}
+/* styling the preparation header */
+h3{
+    color: rgb(127, 33, 93);
+}
+/* styling the preparation unordered list */
+ul li{
+    padding-left: 15px;
+    padding-bottom: 8px;
+    color: rgb(85, 83, 83);
+}
+/* styling all h2 */ 
+h2{
+    color: rgb(155, 100, 74);
+}
+hr{
+    border: 0.3px solid rgb(235, 233, 233);
+}
+/* styling the instruction ordered list */
+/* Marker targets the number (the list) */
+ol li::marker {
+  color:rgb(155, 100, 74);
+  font-weight: bold;
+}
+ol li{
+    color: rgb(85, 83, 83);
+}
+
+/* styling the nutrition container */
+
+span{
+    color: rgb(155, 100, 74);
+    font-weight: bold;
+    padding-left: 180px;
+    display: grid;
+    justify-items:start;
+}
